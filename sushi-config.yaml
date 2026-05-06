@@ -23,44 +23,15 @@ dependencies:
 parameters:
     shownav: 'true'
     pin-canonicals: pin-all
-
+    i18n-default-lang: fr # Default language
 
 
 pages:
     index.md:
         title: Accueil
-    specifications_fonctionnelles.md:
-        title: Volume 1 - Etude fonctionnelle
-    specifications_techniques.md:
-        interaction_restful.md:
-            title: Interactions RESTful
-        interaction_transaction.md:
-            title: Interactions transaction
-        recherche_recuperation_cds.md:
-            title: Recherche CDS
-        correspondances_metier.md:
-            title: Correspondances métier
-    autres_ressources.md:
-        title: Autres Ressources
-        downloads.md:
-            title: Téléchargements et usages
-    changes.md:
-        title: Historique
 
 
 menu:
     Accueil: index.html
-    Volume 1 - Etude fonctionnelle: specifications_fonctionnelles.html
-    Volume 2 - Détail des transactions:
-        Interactions RESTful: interaction_restful.html
-        Interactions transaction: interaction_transaction.html
-        Recherche CDS: recherche_recuperation_cds.html
-        Correspondances métier: correspondances_metier.html
     Ressources de conformité: artifacts.html
-    Autres ressources:
-        Téléchargements et usage: downloads.html
-        "Spécifications FHIR ": new-tab {{site.data.fhir.path}}index.html
-        "Site de l'ANS ": new-tab https://esante.gouv.fr/
-    Documentation: new-tab https://interop.esante.gouv.fr/ig/documentation/
-    Historique: changes.html
 
