@@ -13,23 +13,16 @@ fhirVersion: 4.0.1
 copyrightYear: 2020+
 # releaseLabel: trial-use
 releaseLabel: final-text
-jurisdiction: urn:iso:std:iso:3166#FR "FRANCE"
-
-dependencies:
-  ans.fhir.fr.annuaire: 1.1.0
-  hl7.fhir.fr.core: 2.1.0
-  ans.fr.terminologies: latest
+jurisdiction: urn:iso:std:iso:3166#FR "France (la)"
 
 parameters:
     shownav: 'true'
     pin-canonicals: pin-all
     i18n-default-lang: fr # Default language
 
-
 pages:
     index.md:
         title: Accueil
-
 
 menu:
     Accueil: index.html
